@@ -4,33 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 = 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR')
-    print('fim do programa')
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo:<q>o computador é um burro muito rápido.</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Marco Aurélio, no seu livro Meditações:</p>
-    <blockquote cite="https://www.amazon.com.br/Medita%C3%A7%C3%B5es-Marco-Aur%C3%A9lio/dp/8552100916/ref=asc_df_8552100916/?tag=googleshopp00-20&linkCode=df0&hvadid=379765874546&hvpos=&hvnetw=g&hvrand=4894798761015813398&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001610&hvtargid=pla-847062292946&psc=1">
-        Então, descartando tudo o mais, retém apenas esses poucos princípios, lembrando, ao mesmo tempo, que cada um se limita a viver o presente, que tem duração muito curta; quanto ao restante, é incerto ou impenetrável. Efêmera, portanto, é a vida de cada um e pequeno é o cantinho em que vive; 
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets"> CSS</abbr>. Estou adorando!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
-    
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i"> <!-- 1 A a I i -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!-- disc circle square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
 </body>
 </html>
