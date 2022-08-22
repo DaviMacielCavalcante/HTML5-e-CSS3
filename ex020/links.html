@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETEORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pesudo-element
+            >  = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: aqua;
+            text-decoration: none;      
+            font-weight: bold;      
+        }
+        a:visited {
+            color: aquamarine;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: brown;
+        }
+        .especial{
+            background-color: aliceblue;
+        }
+        .especial::before {
+            content: '☸ ';
+            color: aquamarine;
+        }
+        .especial::after {
+            content: ' ☸';
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/DaviMacielCavalcante", target="_blank" class="especial">github</a></li>
+        <li><a href="https://www.cesupa.br/Graduacao/Exatas/bcc.asp" class="especial">cesupa</a></li>
+    </ul>
+</body>
+</html>
