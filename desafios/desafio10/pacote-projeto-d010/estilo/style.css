@@ -1,0 +1,45 @@
+@charset "UTF-8";
+header {
+    background-color: darkgreen;
+    color: white;
+}
+header > p {
+    margin: 25px;
+}
+header > h1 {
+    margin: -10px 200px 54px 400px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: aquamarine;
+}
+main {
+    background-color: white;
+    height: 1000px;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 5px 1px 8px 2px black;
+}
+section > h1 {
+    font-family: 'android';
+    font-size: 45px;
+}
+section > h2 {
+    font-family: 'android';
+}
+section > img {
+    margin: 1px auto 1px auto;
+}
+@font-face {
+    font-family: 'android';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
